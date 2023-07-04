@@ -1,0 +1,40 @@
+# Игнорирование временных файлов и папок
+*~
+.DS_Store
+thumbs.db
+
+# Игнорирование зависимостей и бинарных файлов
+node_modules/
+dist
+bower_components/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Игнорирование файлов с конфиденциальными данными
+config.ini
+secrets.txt
+
+# Игнорирование файлов IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Игнорирование файлов журналов и резервных копий
+*.log
+*.bak
+*.swp
+
+# Игнорирование файлов конфигурации локальных сред разработки
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Игнорирование сгенерированных документаций
+docs/api/
+docs/build/
